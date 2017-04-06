@@ -1,0 +1,131 @@
+body {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  color: #fff;
+  background-color: #a1adc3;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #65aaff;
+	border-radius: 0;
+	border: 0;
+	min-height: 90px;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-brand h1 {
+	color: #1212ff;
+	font-size: 5vw;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-left: 35px;
+	line-height: .8;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 15px;
+}
+
+#nav-list a {
+  color: #5656b7;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+#nav-list a:hover {
+	background: #eeeeee;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #5656b7;
+}	
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+
+/** END HEADER **/
+
+
+/** PAGE CONTENT**/
+.row {
+	position: relative;
+	margin: 15px;
+}
+
+.title {
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+#dish {
+	font-weight: bold;
+}
+
+#chapter {
+	position: relative;
+	background: #cad4e4;
+	color: #111;
+	margin-bottom: 25px;
+	padding: 25px;
+}
+
+/** End PAGE CONTENT **/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  /* Header */
+  .navbar-brand {
+    height: 90px;
+  }
+  
+  .navbar-brand h1 {
+    font-size: 60px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    padding-top: 15px;
+    height: 80px;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 20px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 38px;
+    padding-left: 20px; 
+  }
+  
+  .row {
+	margin: 30px;
+  }	
+
+}
